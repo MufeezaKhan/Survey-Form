@@ -1,0 +1,61 @@
+body{
+  font-family: Franklin Gothic Medium;
+  font-size: 18px;
+  background-image: url("https://www.ualberta.ca/uofa-tomorrow/media-library/updates/pulse-survey-image.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+div{
+  text-align: center;
+  margin-bottom: 40px;
+}
+p{
+  font-style : italic;
+}
+form{
+  width: 500px;
+  max-width: 800px;
+  min-width: 300px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(255,250,160,0.8);
+}
+label{
+  display: block;
+  margin: 0.7rem;
+  width: 100%;
+}
+fieldset{
+  border: none;
+}
+.optional{
+  display: inline;
+  font-size: 14px;
+}
+input,select{
+  width: 95%;
+  height: 25px;
+  margin-top: 5px;
+}
+input[type="radio"],[type="checkbox"]{
+  width: auto;
+  display: inline;
+  height: 13px;
+}
+textarea{
+  margin: auto;
+  width: 95%
+}
+input[type="submit"]{
+  width: 90%;
+  margin: 5px 24px;
+  background-color: white;
+  height: 2em;
+  border-width: 1px;
+}
+footer{
+  text-align: center;
+  font-size: 14px;
+  width: 20% 100%;
+  margin: 20px 10px auto auto; 
+}
