@@ -2,7 +2,7 @@ body{
   font-family: Franklin Gothic Medium;
   font-size: 18px;
   background-image: url("https://www.ualberta.ca/uofa-tomorrow/media-library/updates/pulse-survey-image.jpg");
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
 }
 div{
@@ -13,7 +13,7 @@ p{
   font-style : italic;
 }
 form{
-  width: 500px;
+  width: relative;
   max-width: 800px;
   min-width: 300px;
   margin: auto;
